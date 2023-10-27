@@ -1,3 +1,3 @@
-module github.com/Ractiurd/digjs
+module github.com/Ractiurd/catjs
 
-go 1.21.1
+go 1.21.0
