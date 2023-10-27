@@ -7,6 +7,8 @@
 2. Uncover hidden endpoints in JavaScript.
 3. Discover and extract secrets concealed within JavaScript.
 4. Customizable through the "secret.json" file, allowing users to define their own patterns.
+5. Automatically save hidden endpoints to a file named `js_endpoint`.
+6. Automatically save secret values to a file named `js_secret`.
 
 # Usage:
 
@@ -26,6 +28,10 @@ echo <URL> | digjs
 ```
 
 Also user can use -c and -v for verbose and colored output
+
+```
+File location for secret.json must be Homedir/.config/secret.json
+```
 
 # Disclaimer:
 
