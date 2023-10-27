@@ -10,6 +10,13 @@
 5. Automatically save hidden endpoints to a file named `js_endpoint`.
 6. Automatically save secret values to a file named `js_secret`.
 
+
+# Installation
+
+```
+go install github.com/Ractiurd/digjs@latest
+```
+
 # Usage:
 
 To analyze a single URL:
